@@ -12,7 +12,7 @@ namespace rpgTibia.Entities
         {
 
         }
-        private int level;
+        private int level = 1;
         private int hp;
         private int mp;
         private int cap;

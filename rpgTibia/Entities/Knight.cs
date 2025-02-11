@@ -8,7 +8,8 @@ namespace rpgTibia.Entities
 {
     internal class Knight : Vocation
     {
-        public Knight() {
+        public Knight()
+        {
             base.setBaseHp(15);
             base.setBaseMp(5);
             base.setMp(base.calcularAtualMp());
